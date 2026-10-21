@@ -1,16 +1,33 @@
-# React + Vite
+# StudyFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+StudyFlow, ders çalışma görevlerini takip etmek için hazırlanmış basit bir React uygulamasıdır.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Ders adı ve görev açıklamasıyla yeni görev ekleme
+- Görevleri kartlar hâlinde listeleme
+- Görevleri düzenleme
+- Görevleri silme
+- Görevleri tamamlandı olarak işaretleme ve geri alma
+- LocalStorage ile verilerin sayfa yenilense bile korunması
+- Bilgisayar ve telefon ekranlarına uyumlu tasarım
 
-## React Compiler
+## Kullanılan Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Bootstrap
+- HTML ve CSS
+- LocalStorage
 
-## Expanding the ESLint configuration
+## Projeyi Bilgisayarda Çalıştırma
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Depoyu indir: `git clone https://github.com/balkiseylul/studyflow.git`
+2. Proje klasörüne gir: `cd studyflow`
+3. Paketleri kur: `npm install`
+4. Uygulamayı başlat: `npm run dev`
+5. Tarayıcıda `http://localhost:5173/` adresini aç.
+
+## Hazırlayan
+
+Eylül Balkıs
